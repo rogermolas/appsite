@@ -3,33 +3,23 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://apps.rogermolas.com/blog/2015/10/10/migrate-from-jekyll/</loc>
-    <lastmod>2015-10-10T13:07:31+02:00</lastmod>
+    <loc>https://apps.rogermolas.com/blog/mapkit-generate-image-snapshotter/</loc>
+    <lastmod>2018-02-12T14:29:02+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://apps.rogermolas.com/blog/2015/10/02/linked-post/</loc>
-    <lastmod>2015-10-02T21:49:20+02:00</lastmod>
+    <loc>https://apps.rogermolas.com/blog/multiline-string-literals/</loc>
+    <lastmod>2017-07-01T14:07:14+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://apps.rogermolas.com/blog/2015/09/17/go-is-for-lovers/</loc>
-    <lastmod>2015-09-17T13:47:08+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://apps.rogermolas.com/blog/2015/08/03/hugo-is-for-lovers/</loc>
-    <lastmod>2015-08-03T13:39:46+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://apps.rogermolas.com/blog/2015/06/24/creating-a-new-theme/</loc>
-    <lastmod>2015-06-24T13:50:46+02:00</lastmod>
+    <loc>https://apps.rogermolas.com/blog/grand-central-dispatch-and-swift-3/</loc>
+    <lastmod>2016-12-09T10:43:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://apps.rogermolas.com/blog/</loc>
-    <lastmod>2015-10-10T13:07:31+02:00</lastmod>
+    <lastmod>2018-02-12T14:29:02+08:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -43,78 +33,98 @@
   </url>
   
   <url>
-    <loc>https://apps.rogermolas.com/faq/</loc>
-  </url>
-  
-  <url>
-    <loc>https://apps.rogermolas.com/tags/go/</loc>
-    <lastmod>2015-09-17T13:47:08+02:00</lastmod>
+    <loc>https://apps.rogermolas.com/tags/gcd/</loc>
+    <lastmod>2016-12-09T10:43:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://apps.rogermolas.com/tags/golang/</loc>
-    <lastmod>2015-10-02T21:49:20+02:00</lastmod>
+    <loc>https://apps.rogermolas.com/categories/gcd/</loc>
+    <lastmod>2016-12-09T10:43:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://apps.rogermolas.com/tags/hugo/</loc>
-    <lastmod>2015-10-02T21:49:20+02:00</lastmod>
+    <loc>https://apps.rogermolas.com/tags/mapkit/</loc>
+    <lastmod>2018-02-12T14:29:02+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://apps.rogermolas.com/tags/ipsum/</loc>
-    <lastmod>2015-10-10T13:07:31+02:00</lastmod>
+    <loc>https://apps.rogermolas.com/categories/mapkit/</loc>
+    <lastmod>2018-02-12T14:29:02+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://apps.rogermolas.com/categories/lorem/</loc>
-    <lastmod>2015-10-10T13:07:31+02:00</lastmod>
+    <loc>https://apps.rogermolas.com/tags/mkmapsnapshot/</loc>
+    <lastmod>2018-02-12T14:29:02+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://apps.rogermolas.com/tags/programming/</loc>
-    <lastmod>2015-10-02T21:49:20+02:00</lastmod>
+    <loc>https://apps.rogermolas.com/categories/mkmapsnapshot/</loc>
+    <lastmod>2018-02-12T14:29:02+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://apps.rogermolas.com/categories/programming/</loc>
-    <lastmod>2015-10-02T21:49:20+02:00</lastmod>
+    <loc>https://apps.rogermolas.com/tags/multi-threading/</loc>
+    <lastmod>2016-12-09T10:43:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://apps.rogermolas.com/categories/pseudo/</loc>
-    <lastmod>2015-08-03T13:39:46+02:00</lastmod>
+    <loc>https://apps.rogermolas.com/tags/string/</loc>
+    <lastmod>2017-07-01T14:07:14+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://apps.rogermolas.com/categories/starting/</loc>
-    <lastmod>2015-06-24T13:50:46+02:00</lastmod>
+    <loc>https://apps.rogermolas.com/categories/string/</loc>
+    <lastmod>2017-07-01T14:07:14+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://apps.rogermolas.com/tags/swift3/</loc>
+    <lastmod>2016-12-09T10:43:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://apps.rogermolas.com/categories/swift3/</loc>
+    <lastmod>2016-12-09T10:43:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://apps.rogermolas.com/tags/swift4/</loc>
+    <lastmod>2018-02-12T14:29:02+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://apps.rogermolas.com/categories/swift4/</loc>
+    <lastmod>2017-07-01T14:07:14+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://apps.rogermolas.com/tags/</loc>
-    <lastmod>2015-09-17T13:47:08+02:00</lastmod>
+    <lastmod>2016-12-09T10:43:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://apps.rogermolas.com/tags/theme/</loc>
-    <lastmod>2015-10-02T21:49:20+02:00</lastmod>
+    <loc>https://apps.rogermolas.com/categories/threading/</loc>
+    <lastmod>2016-12-09T10:43:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://apps.rogermolas.com/</loc>
-    <lastmod>2015-10-10T13:07:31+02:00</lastmod>
+    <lastmod>2018-02-12T14:29:02+08:00</lastmod>
     <priority>0</priority>
   </url>
   

@@ -6,65 +6,40 @@
     <description>Recent content on Universal</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>Copyright (c) 2015 - 2016, YourCompany; all rights reserved.</copyright>
-    <lastBuildDate>Sat, 10 Oct 2015 13:07:31 +0200</lastBuildDate>
+    <copyright>Copyright (c) 2018, Roger Molas; all rights reserved.</copyright>
+    <lastBuildDate>Mon, 12 Feb 2018 14:29:02 +0800</lastBuildDate>
     
 	<atom:link href="https://apps.rogermolas.com/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Migrate from Jekyll</title>
-      <link>https://apps.rogermolas.com/blog/2015/10/10/migrate-from-jekyll/</link>
-      <pubDate>Sat, 10 Oct 2015 13:07:31 +0200</pubDate>
+      <title>Generate MapView Snapshot with Snapshotter</title>
+      <link>https://apps.rogermolas.com/blog/mapkit-generate-image-snapshotter/</link>
+      <pubDate>Mon, 12 Feb 2018 14:29:02 +0800</pubDate>
       
-      <guid>https://apps.rogermolas.com/blog/2015/10/10/migrate-from-jekyll/</guid>
-      <description>Move static content to static Jekyll has a rule that any directory not starting with _ will be copied as-is to the _site output. Hugo keeps all static content under static. You should therefore move it all there. With Jekyll, something that looked like
-▾ &amp;lt;root&amp;gt;/ ▾ images/ logo.png  should become
-▾ &amp;lt;root&amp;gt;/ ▾ static/ ▾ images/ logo.png  Additionally, you&amp;rsquo;ll want any files that should reside at the root (such as CNAME) to be moved to static.</description>
+      <guid>https://apps.rogermolas.com/blog/mapkit-generate-image-snapshotter/</guid>
+      <description>MKMapSnapshotter is use in creating an image representation of a map view. Previously, other developers use UIGraphicsContext, but now images can reliably be created for any particular region and perspective.
+Creating a Map View Snapshot let mapSnapshotOptions = MKMapSnapshotOptions() mapSnapshotOptions.region = mapView.region mapSnapshotOptions.scale = UIScreen.main.scale mapSnapshotOptions.size = mapView.frame.size mapSnapshotOptions.showsBuildings = true mapSnapshotOptions.showsPointsOfInterest = true let snapShotter = MKMapSnapshotter(options: mapSnapshotOptions) snapShotter.start { (snap, error) in let image = snap?.image imageView.image = image }  According to Apple&amp;rsquo;s MKMapSnapshot doc</description>
     </item>
     
     <item>
-      <title>Linked post</title>
-      <link>https://apps.rogermolas.com/blog/2015/10/02/linked-post/</link>
-      <pubDate>Fri, 02 Oct 2015 21:49:20 +0200</pubDate>
+      <title>Multiline String Literals</title>
+      <link>https://apps.rogermolas.com/blog/multiline-string-literals/</link>
+      <pubDate>Sat, 01 Jul 2017 14:07:14 +0000</pubDate>
       
-      <guid>https://apps.rogermolas.com/blog/2015/10/02/linked-post/</guid>
-      <description>I&amp;rsquo;m a linked post in the menu. You can add other posts by adding the following line to the frontmatter:
-menu = &amp;quot;main&amp;quot;  Lorem ipsum dolor sit amet, consectetur adipiscing elit. In mauris nulla, vestibulum vel auctor sed, posuere eu lorem. Aliquam consequat augue ut accumsan mollis. Suspendisse malesuada sodales tincidunt. Vivamus sed erat ac augue bibendum porta sed id ipsum. Ut mollis mauris eget ligula sagittis cursus. Aliquam id pharetra tellus.</description>
+      <guid>https://apps.rogermolas.com/blog/multiline-string-literals/</guid>
+      <description>Long strings are strings delimited by &amp;quot;&amp;quot;&amp;quot;triple quotes&amp;quot;&amp;quot;&amp;quot; that can contain newlines and individual &amp;ldquo; characters without the need to escape them. SE-0168 Multi-Line String Literals
+Multi-Line String Literal Creation let lines = &amp;quot;&amp;quot;&amp;quot; This is line one This is line two This is line three &amp;quot;&amp;quot;&amp;quot; print(&amp;quot;Multi-Line String: \(lines)&amp;quot;)  Mutation let myString = &amp;quot;&amp;quot;&amp;quot; Hello Multi line string! This is sample of mutating string. End here &amp;quot;&amp;quot;&amp;quot; let startingIndex = myString.</description>
     </item>
     
     <item>
-      <title>Go is for lovers</title>
-      <link>https://apps.rogermolas.com/blog/2015/09/17/go-is-for-lovers/</link>
-      <pubDate>Thu, 17 Sep 2015 13:47:08 +0200</pubDate>
+      <title>Grand Central Dispatch and Swift 3</title>
+      <link>https://apps.rogermolas.com/blog/grand-central-dispatch-and-swift-3/</link>
+      <pubDate>Fri, 09 Dec 2016 10:43:00 +0000</pubDate>
       
-      <guid>https://apps.rogermolas.com/blog/2015/09/17/go-is-for-lovers/</guid>
-      <description>Hugo uses the excellent go html/template library for its template engine. It is an extremely lightweight engine that provides a very small amount of logic. In our experience that it is just the right amount of logic to be able to create a good static website. If you have used other template systems from different languages or frameworks you will find a lot of similarities in go templates.
-This document is a brief primer on using go templates.</description>
-    </item>
-    
-    <item>
-      <title>Hugo is for lovers</title>
-      <link>https://apps.rogermolas.com/blog/2015/08/03/hugo-is-for-lovers/</link>
-      <pubDate>Mon, 03 Aug 2015 13:39:46 +0200</pubDate>
-      
-      <guid>https://apps.rogermolas.com/blog/2015/08/03/hugo-is-for-lovers/</guid>
-      <description>Step 1. Install Hugo Goto hugo releases and download the appropriate version for your os and architecture.
-Save it somewhere specific as we will be using it in the next step.
-More complete instructions are available at installing hugo
-Step 2. Build the Docs Hugo has its own example site which happens to also be the documentation site you are reading right now.
-Follow the following steps:
- Clone the hugo repository Go into the repo Run hugo in server mode and build the docs Open your browser to http://localhost:1313  Corresponding pseudo commands:</description>
-    </item>
-    
-    <item>
-      <title>Creating a new theme</title>
-      <link>https://apps.rogermolas.com/blog/2015/06/24/creating-a-new-theme/</link>
-      <pubDate>Wed, 24 Jun 2015 13:50:46 +0200</pubDate>
-      
-      <guid>https://apps.rogermolas.com/blog/2015/06/24/creating-a-new-theme/</guid>
-      <description>Introduction This tutorial will show you how to create a simple theme in Hugo. I assume that you are familiar with HTML, the bash command line, and that you are comfortable using Markdown to format content. I&amp;rsquo;ll explain how Hugo uses templates and how you can organize your templates to create a theme. I won&amp;rsquo;t cover using CSS to style your theme.
-We&amp;rsquo;ll start with creating a new site with a very basic template.</description>
+      <guid>https://apps.rogermolas.com/blog/grand-central-dispatch-and-swift-3/</guid>
+      <description>Grand Central Dispatch (GCD or libdispatch) a system level library for managing concurrent operations develop by Apple Inc., it is one of the more complicated and unfriendly APIs in iOS SDK. It was written in C programming language using this API felts like writing low-level C code that executed directly into hardware.
+GCD or libdispatch is a combination of logic in the xnu kernel alongside the user-space library. The kernel has the most information available to balance workload across the entire system.</description>
     </item>
     
     <item>
@@ -75,16 +50,6 @@ We&amp;rsquo;ll start with creating a new site with a very basic template.</desc
       <guid>https://apps.rogermolas.com/contact/</guid>
       <description>We are here to help you Are you curious about something? Do you have some kind of problem with our products? As am hastily invited settled at limited civilly fortune me. Really spring in extent an by. Judge but built gay party world. Of so am he remember although required. Bachelor unpacked be advanced at. Confined in declared marianne is vicinity.
 Please feel free to contact us, our customer service center is working for you 24&amp;frasl;7.</description>
-    </item>
-    
-    <item>
-      <title>FAQ</title>
-      <link>https://apps.rogermolas.com/faq/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://apps.rogermolas.com/faq/</guid>
-      <description>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.
-1. WHAT TO DO IF I HAVE STILL NOT RECEIVED THE ORDER? Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante.</description>
     </item>
     
   </channel>

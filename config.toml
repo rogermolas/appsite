@@ -19,68 +19,51 @@ paginate = 10
 # Main menu
 
 [[menu.main]]
-    name = "Home"
+    name = "HOME"
     url  = "/"
     weight = 1
 
 [[menu.main]]
-    name = "Blog"
-    url  = "/blog/"
+    name = "BLOGS"
+    url  = "http://www.rogermolas.com/blog/"
     weight = 2
 
 [params]
-    viewMorePostLink = "/blog/"
-    author = "DevCows"
-    defaultKeywords = ["devows", "hugo", "go"]
-    defaultDescription = "Site template made by devcows using hugo"
+    #author = "DevCows"
+    #defaultKeywords = ["devows", "hugo", "go"]
+    #defaultDescription = "Site template made by devcows using hugo"
 
     # Google Maps API key (if not set will default to not passing a key.)
-    googleMapsApiKey = "AIzaSyCFhtWLJcE30xOAjcbSFi-0fnoVmQZPb1Y"
+    #googleMapsApiKey = "AIzaSyCFhtWLJcE30xOAjcbSFi-0fnoVmQZPb1Y"
 
     # Style options: default (light-blue), blue, green, marsala, pink, red, turquoise, violet
-    style = "default"
+    style = "turquoise"
+    email = "contact@rogermolas.com"
 
-    # Since this template is static, the contact form uses www.formspree.io as a
-    # proxy. The form makes a POST request to their servers to send the actual
-    # email. Visitors can send up to a 1000 emails each month for free.
-    #
-    # What you need to do for the setup?
-    #
-    # - set your email address under 'email' below
-    # - upload the generated site to your server
-    # - send a dummy email yourself to confirm your account
-    # - click the confirm link in the email from www.formspree.io
-    # - you're done. Happy mailing!
-    #
-    # Enable the contact form by entering your Formspree.io email
-    email = "your@email.com"
-
-    about_us = "<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>"
-    copyright = "Copyright (c) 2015 - 2016, YourCompany; all rights reserved."
+   # about_us = "<p>.</p>"
+    copyright = "Copyright (c) 2018, Roger Molas; all rights reserved."
 
     # Format dates with Go's time formatting
     date_format = "January 2, 2006"
-
-    logo = "static/img/logo.png"
-    address = """<p><strong>Universal Ltd.</strong>
-        <br>13/25 New Avenue
-        <br>Newtown upon River
-        <br>45Y 73J
-        <br>England
-        <br>
-        <strong>Great Britain</strong>
-      </p>
-      """
-    latitude = "-12.043333"
-    longitude = "-77.028333"
+    logo = "img/logo.png"
+    
+   # address = """<p><strong>Universal Ltd.</strong>
+   #     <br>13/25 New Avenue
+   #     <br>Newtown upon River
+   #     <br>45Y 73J
+   #     <br>England
+   #     <br>
+   #     <strong>Great Britain</strong>
+   #   </p>
+   #   """
 
 [Permalinks]
-    blog = "/blog/:year/:month/:day/:filename/"
+   # blog = "/blog/:year/:month/:day/:filename/"
 
 # Enable or disable top bar with social icons
 [params.topbar]
     enable = true
-    text = """<p class="hidden-sm hidden-xs">Contact us on +420 777 555 333 or hello@universal.com.</p>
+    text = """<p class="hidden-sm hidden-xs">Contact me on contact@rogermolas.com.</p>
       <p class="hidden-md hidden-lg"><a href="#" data-animate-hover="pulse"><i class="fa fa-phone"></i></a>
       <a href="#" data-animate-hover="pulse"><i class="fa fa-envelope"></i></a>
       </p>
@@ -98,10 +81,17 @@ paginate = 10
     # at 'exampleSite/data/carousel'.
     # For more informtion take a look at the README.
 
-[params.testimonials]
-   # enable = true
-    # All testimonials are defined in their own files. You can find example items
-    # at 'exampleSite/data/testimonials'.
+[params.features]
+    enable = true
+    # All features are defined in their own files. You can find example items
+    # at 'exampleSite/data/features'.
     # For more informtion take a look at the README.
-    title = "Testimonials"
-    subtitle = "We have worked with many clients and we always like to hear they come out from the cooperation happy and satisfied. Have a look what our clients said about us."
+
+[params.see_more]
+    enable = true
+    icon = "fa fa-file-code-o"
+    title = "Do you want to see more?"
+    subtitle = "Other freelance work and opensource libraries"
+    link_url = "http://www.rogermolas.com/projects/"
+    link_text = "Check projects page"
+   
