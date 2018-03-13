@@ -1,4 +1,4 @@
-baseurl = "https://apps.rogermolas.com/"
+baseurl = "https://takbo.rogermolas.com/"
 title = "Roger Molas"
 theme = "hugo-universal-theme"
 themesDir = "themes/"
