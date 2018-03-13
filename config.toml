@@ -1,5 +1,5 @@
 baseurl = "https://apps.rogermolas.com/"
-title = "Universal"
+title = "Roger Molas"
 theme = "hugo-universal-theme"
 themesDir = "themes/"
 publishDir = "docs"
