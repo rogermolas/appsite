@@ -1,0 +1,9 @@
+weight: 4
+title: "Takbo App"
+description: >
+  <ul class="list-style-none">
+      <li>A straightforward running</li>
+      <li>fitness tracker</li>
+      <li>with GPS, Maps, Activity history</li>
+  </ul>
+image: "images/takboBanner.png"
