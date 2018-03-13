@@ -3,25 +3,25 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>takbo.rogermolas.com/categories/</loc>
+    <loc>https://takbo.rogermolas.com/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>takbo.rogermolas.com/contact/</loc>
+    <loc>https://takbo.rogermolas.com/contact/</loc>
   </url>
   
   <url>
-    <loc>takbo.rogermolas.com/faq/</loc>
+    <loc>https://takbo.rogermolas.com/faq/</loc>
   </url>
   
   <url>
-    <loc>takbo.rogermolas.com/</loc>
+    <loc>https://takbo.rogermolas.com/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>takbo.rogermolas.com/tags/</loc>
+    <loc>https://takbo.rogermolas.com/tags/</loc>
     <priority>0</priority>
   </url>
   
