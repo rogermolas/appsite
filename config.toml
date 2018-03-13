@@ -1,4 +1,4 @@
-baseurl = "https://rogermolas.github.io/appsite/"
+baseurl = "https://apps.rogermolas.com/"
 title = "Universal"
 theme = "hugo-universal-theme"
 themesDir = "themes/"
